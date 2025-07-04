@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class SpringWebTestApplication {
 
-	@GetMapping()
+	@GetMapping("/")
 	public String welcome() {
 		return "Welcome to Spring Web Project";
 	}
